@@ -1,0 +1,848 @@
+# vsim -gui -l msim_transcript work.tb_8051 
+# Start time: 22:19:07 on May 27,2020
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+add wave -position insertpoint  \
+sim:/tb_8051/U87/rst_n
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: JIE  Hostname: DESKTOP-2UK3TV4  ProcessID: 10748
+#           Attempting to use alternate WLF file "./wlftz1d1a5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz1d1a5
+add wave -position insertpoint  \
+sim:/tb_8051/u0/sfr_addr \
+sim:/tb_8051/u0/sfr_data_in \
+sim:/tb_8051/u0/sfr_data_out \
+sim:/tb_8051/u0/sfr_rd \
+sim:/tb_8051/u0/sfr_wr
+add wave -position insertpoint  \
+sim:/tb_8051/U87/SCL \
+sim:/tb_8051/U87/SDA
+add wave -position insertpoint  \
+sim:/tb_8051/U87/bit_count \
+sim:/tb_8051/U87/temp_data
+restart
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+add wave -position insertpoint  \
+sim:/tb_8051/U87/next_state \
+sim:/tb_8051/U87/state
+restart
+add wave -position insertpoint  \
+sim:/tb_8051/U87/cnt_freq
+restart
+run
+# time=  0 memory_000=0xxx memory_001=0xxx
+run -all
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+restart
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+restart
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+restart
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+add wave -position insertpoint  \
+sim:/tb_8051/U87/isout
+restart
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+add wave -position insertpoint  \
+sim:/tb_8051/u10/ControlByte \
+sim:/tb_8051/u10/MemoryByte_000
+restart
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+add wave -position insertpoint  \
+sim:/tb_8051/u10/MemoryByte_001
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+restart
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+add wave -position insertpoint  \
+sim:/tb_8051/u10/ChipAddress
+restart
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+add wave -position insertpoint  \
+sim:/tb_8051/u10/PageAddress
+add wave -position insertpoint  \
+sim:/tb_8051/u10/StartAddress
+restart
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v failed with 1 errors.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 1 failed with 1 error.
+restart
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0xb4
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0x34
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+restart
+# Compile of tb_8051.v was successful.
+# Compile of M24AA256.v was successful.
+# Compile of I2C.v was successful.
+# Compile of I2C_tb.v was successful with warnings.
+# Compile of DW01_add.v was successful.
+# Compile of DW01_addsub.v was successful.
+# Compile of DW01_cmp2.v was successful.
+# Compile of DW01_sub.v was successful.
+# Compile of DW02_mult.v was successful.
+# Compile of DW8051_alu.v was successful.
+# Compile of DW8051_biu.v was successful.
+# Compile of DW8051_control.v was successful.
+# Compile of DW8051_core.v was successful.
+# Compile of DW8051_cpu.v was successful.
+# Compile of DW8051_intr_0.v was successful.
+# Compile of DW8051_intr_1.v was successful.
+# Compile of DW8051_main_regs.v was successful.
+# Compile of DW8051_op_decoder.v was successful.
+# Compile of DW8051_serial.v was successful.
+# Compile of DW8051_shftreg.v was successful.
+# Compile of DW8051_timer.v was successful.
+# Compile of DW8051_timer_ctr.v was successful.
+# Compile of DW8051_timer2.v was successful.
+# Compile of DW8051_u_ctr_clr.v was successful.
+# Compile of DW8051_updn_ctr.v was successful.
+# Compile of ext_mem.v was successful.
+# Compile of int_mem.v was successful.
+# Compile of rom_mem.v was successful.
+# Compile of sfr_mem.v was successful.
+# Compile of DW8051_parameter.v was successful.
+# Compile of DW8051_package.inc was successful.
+# 31 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.ext_mem
+# Loading work.rom_mem
+# Loading work.I2C
+# Loading work.M24AA256
+run -all
+# time=  0 memory_000=0xxx memory_001=0xxx
+# time=5102918 memory_000=0x12 memory_001=0xxx
+# time=11872701 memory_000=0x12 memory_001=0x34
+# ** Note: $stop    : D:/QuartusCode/HW3/8051/tb_8051.v(85)
+#    Time: 13541609300 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/QuartusCode/HW3/8051/tb_8051.v line 85
+# End time: 23:37:39 on May 27,2020, Elapsed time: 1:18:32
+# Errors: 0, Warnings: 2

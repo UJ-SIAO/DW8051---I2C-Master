@@ -1,0 +1,32 @@
+
+State Machine - |I2C|step_count
+Name step_count.00000000000000000000000000000110 step_count.00000000000000000000000000000101 step_count.00000000000000000000000000000100 step_count.00000000000000000000000000000011 step_count.00000000000000000000000000000010 step_count.00000000000000000000000000000001 step_count.00000000000000000000000000000000 
+step_count.00000000000000000000000000000000 0 0 0 0 0 0 0 
+step_count.00000000000000000000000000000001 0 0 0 0 0 1 1 
+step_count.00000000000000000000000000000010 0 0 0 0 1 0 1 
+step_count.00000000000000000000000000000011 0 0 0 1 0 0 1 
+step_count.00000000000000000000000000000100 0 0 1 0 0 0 1 
+step_count.00000000000000000000000000000101 0 1 0 0 0 0 1 
+step_count.00000000000000000000000000000110 1 0 0 0 0 0 1 
+
+State Machine - |I2C|next_state
+Name next_state.stop next_state.wait_ack next_state.Data next_state.address_low next_state.address_high next_state.control_btye next_state.idle next_state.star 
+next_state.star 0 0 0 0 0 0 0 0 
+next_state.idle 0 0 0 0 0 0 1 1 
+next_state.control_btye 0 0 0 0 0 1 0 1 
+next_state.address_high 0 0 0 0 1 0 0 1 
+next_state.address_low 0 0 0 1 0 0 0 1 
+next_state.Data 0 0 1 0 0 0 0 1 
+next_state.wait_ack 0 1 0 0 0 0 0 1 
+next_state.stop 1 0 0 0 0 0 0 1 
+
+State Machine - |I2C|state
+Name state.stop state.wait_ack state.Data state.address_low state.address_high state.control_btye state.star state.idle 
+state.idle 0 0 0 0 0 0 0 0 
+state.star 0 0 0 0 0 0 1 1 
+state.control_btye 0 0 0 0 0 1 0 1 
+state.address_high 0 0 0 0 1 0 0 1 
+state.address_low 0 0 0 1 0 0 0 1 
+state.Data 0 0 1 0 0 0 0 1 
+state.wait_ack 0 1 0 0 0 0 0 1 
+state.stop 1 0 0 0 0 0 0 1 

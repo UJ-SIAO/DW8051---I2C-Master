@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/QuartusCode/HW3/simulation/modelsim
+vI2C
+!s110 1590589066
+!i10b 1
+!s100 ?6[?8>4?>Wb_5`e8zl]<O3
+IU5mhADGn5B9^1O7XMT<K72
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1590584805
+8D:/QuartusCode/HW3/I2C.v
+FD:/QuartusCode/HW3/I2C.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1590589066.000000
+!s107 D:/QuartusCode/HW3/I2C.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/QuartusCode/HW3|D:/QuartusCode/HW3/I2C.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/QuartusCode/HW3
+tCvgOpt 0
+n@i2@c
